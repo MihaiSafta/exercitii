@@ -32,19 +32,19 @@ public class LogicalOp {
 //       System.out.println(i);}
 //}
 
-        //Ex nr.4
+        //Ex nr.5
 //    public void numbercounting(){
 //          for(int i = 1; i<=100; i++){
 //    if(i % 2 == 0){
 //    System.out.println(i);}}}
 
-//    Ex nr.5
+//    Ex nr.6
 //    public void numbercounting(){
 //        for(int i = 1; i<=100; i++){
 //            if(i % 2 != 0){
 //                System.out.println(i);}}}
 
-//    Ex. nr.6
+//    Ex. nr.7
 //    public void numbercounting(int sum){
 //
 //        int num = 100;
@@ -55,11 +55,27 @@ public class LogicalOp {
 //        System.out.println("Sum = " + sum);
 //    }
 
-public void numbercounting(int givenNumer) {
-    for (int i = givenNumer; i <= 100; i++) {
-         givenNumer += i;}
 
-        System.out.println("Sum = " + givenNumer);
+////Ex nr 7. varianta 2
+//    //N for consecutive numbers = (First Number - Last Number) +1
+//    //
+//    //Sum of numbers = (First Number + Last Number) * N))/2
+//
+//public void numbercounting(int givenNumer) {
+//int numberOfConsecutiveNumbers = (100 - givenNumer)+ 1;
+//int sum = ((givenNumer + 100)* numberOfConsecutiveNumbers)/2;
+//    System.out.println("Sum is " + sum);
+//
+//    }
+//}
+
+//Ex.nr8
+    public void numbercounting(int givenNumer) {
+        int numberOfConsecutiveNumbers = (100 - givenNumer)+ 1;
+        int sum = ((givenNumer + 100)* numberOfConsecutiveNumbers)/2;
+        double average = sum/numberOfConsecutiveNumbers;
+        System.out.println("Average is " + average);
+
     }
 }
 

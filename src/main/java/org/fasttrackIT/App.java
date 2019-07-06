@@ -21,10 +21,12 @@ public class App {
 //        App app = new App();
 //        app.displayAverage(3.5,4.5,5);
 //        }
+
+
     public static void main(String[] args) {
 
 
         LogicalOp exercise1 = new LogicalOp();
-        exercise1.numbercounting(100);
+        exercise1.numbercounting(99);
     }
 }
