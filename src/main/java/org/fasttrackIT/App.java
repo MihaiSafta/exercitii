@@ -27,6 +27,7 @@ public class App {
 
 
         LogicalOp exercise1 = new LogicalOp();
-        exercise1.numbercounting(99);
+        exercise1.printStars(2);
+        exercise1.printPattern(10);
     }
 }
